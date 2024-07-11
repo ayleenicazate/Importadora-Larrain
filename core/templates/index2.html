@@ -1,0 +1,190 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importadora Larrain | Tienda</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="fondo">
+
+    <!--BUSQUEDA Y CATEGORIAS-->
+    <header class="page-header gradient espacio2" id="header">
+      <div class="container pt-3 fondoblanco">
+        <ul class="nav justify-content-center espacio3">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+    <!--PRODUCTOS-->
+      <!--PRIMERA FILA-->      
+        <div class="row row-cols-1 row-cols-md-3 g-4 espacio">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/audifonos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sony WF-1000XM3</h5>
+                <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                  conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+              </div>
+              <div class="centrar">
+              <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">ID 210456</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sony WF-1000XM3</h5>
+                <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                  conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+              </div>
+              <div class="centrar">
+              <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">ID 210456</small>
+              </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sony WF-1000XM3</h5>
+                <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                  conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+              </div>
+              <div class="centrar">
+              <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">ID 210456</small>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!--SEGUNDA FILA-->      
+      <div class="row row-cols-1 row-cols-md-3 g-4 espacio">
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+        </div>
+      </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!--TERCERA FILA-->      
+      <div class="row row-cols-1 row-cols-md-3 g-4 espacio">
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+        </div>
+      </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="{% static 'img/audifonos.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sony WF-1000XM3</h5>
+              <p class="card-text">La tecnología noise cancelling avanzada con un sonido de alta calidad, funciones de audio inteligentes, 
+                conectividad Bluetooth® y NFC, una duración de batería para todo el día y comodidad para largas reproducciones</p>
+            </div>
+            <div class="centrar">
+            <a href=""><button class="btn btn-outline-success me-2 espacio3" type="button">Comprar</button></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">ID 210456</small>
+            </div>
+        </div>
+      </div>
+    </header> 
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
